@@ -1,3 +1,4 @@
+![Screenshot (30)](https://github.com/user-attachments/assets/0bcfad07-6248-45cc-a422-28764cf4d737)
 # 🎬 Movie Recommendation Web App
 
 A simple and visually appealing web app built with **React** (Frontend) and **Node.js + Express** (Backend) that allows users to:
