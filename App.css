@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.search-bar, .dropdown {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s, background-color 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  background-color: #f7f1e3;
+}
+
+.recommended {
+  border: 2px solid #3498db;
+}
